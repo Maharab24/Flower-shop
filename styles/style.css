@@ -160,4 +160,24 @@ background: rgba(229, 84, 115, 0.05);
 
 }
 
+/*Subscribe section*/
+
+.subscribe{
+    background-image: url('../images/Rectangle\ 9.png');
+    height: 449px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 240px;
+    justify-items: center;
+}
+
+.subscribe-title{
+    font-size: 40px;
+font-weight: 800;
+
+
+}
+
+
 
