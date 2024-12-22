@@ -1,0 +1,106 @@
+/* style for all */
+* {}
+
+.btn-primary {
+    border-radius: 8px;
+
+    background: rgb(229, 84, 115);
+    color: white;
+    padding: 15px 35px;
+    border: 0;
+
+}
+
+.section-title {
+    color: rgb(39, 39, 39);
+    font-weight: 800;
+    text-align: center;
+
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.6);
+    font-weight: 400;
+    text-align: center;
+}
+
+section {
+    margin-top: 100px;
+}
+
+
+/*Header styles*/
+
+header {
+    background: rgba(229, 84, 115, 0.1);
+    padding: 0px 240px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-intro p {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    width: 50%;
+
+
+
+}
+
+
+/*Feature section*/
+
+
+.feature-flowers {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+
+
+}
+
+.feature-flower-style {
+    border-radius: 300px 300px 0px 0px;
+
+
+    text-align: center;
+    width: 464px;
+    height: 538px;
+
+
+
+}
+
+#f-1{
+    background: rgba(167, 33, 98, 0.15);
+
+    background-image: url('../images/pngwing\ 6.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+
+
+}
+#f-2{
+    background: rgba(5, 151, 160, 0.15);
+
+    background-image: url('../images/pngwing\ 5.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+#f-3{
+    background: rgba(71, 125, 17, 0.15);
+    background-image: url('../images/pngwing\ 7.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+
+.image-info{
+    text-decoration: underline;
+    text-align: center;
+    
+}
