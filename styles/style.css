@@ -1,5 +1,4 @@
 /* style for all */
-* {}
 
 .btn-primary {
     border-radius: 8px;
@@ -53,11 +52,16 @@ header {
 
 /*Feature section*/
 
+.feature-section {
+    margin: 0px 240px;
+}
+
 
 .feature-flowers {
     display: flex;
     gap: 10px;
-    justify-content: center;
+
+    margin-top: 100px;
 
 
 }
@@ -74,7 +78,7 @@ header {
 
 }
 
-#f-1{
+#f-1 {
     background: rgba(167, 33, 98, 0.15);
 
     background-image: url('../images/pngwing\ 6.png');
@@ -84,14 +88,16 @@ header {
 
 
 }
-#f-2{
+
+#f-2 {
     background: rgba(5, 151, 160, 0.15);
 
     background-image: url('../images/pngwing\ 5.png');
     background-repeat: no-repeat;
     background-position: bottom;
 }
-#f-3{
+
+#f-3 {
     background: rgba(71, 125, 17, 0.15);
     background-image: url('../images/pngwing\ 7.png');
     background-repeat: no-repeat;
@@ -99,8 +105,59 @@ header {
 
 }
 
-.image-info{
+.image-info {
     text-decoration: underline;
     text-align: center;
-    
+
 }
+
+.more-feature {
+
+    margin: 100px 0px;
+    padding: 150px 50px;
+    display: flex;
+
+    border-radius: 8px;
+
+    background: rgba(39, 39, 39, 0.05);
+    justify-content: space-around;
+
+
+}
+
+.more-feature-items{
+    text-align: center;
+}
+
+
+/*offer section*/
+.offer{
+    border-radius: 8px;
+
+background: rgba(229, 84, 115, 0.05);
+    padding: 0px 240px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.offer img{
+    border: 2px;
+    border-style: dashed;
+    border-color: brown;
+
+}
+
+
+
+/*instragram section*/
+
+.insta-img{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 100px;
+
+}
+
+
